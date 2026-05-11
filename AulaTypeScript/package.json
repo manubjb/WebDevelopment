@@ -1,0 +1,15 @@
+{
+  "name": "aulatypescript",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
+    "@typescript-eslint/parser": "^8.59.1",
+    "eslint": "^10.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
