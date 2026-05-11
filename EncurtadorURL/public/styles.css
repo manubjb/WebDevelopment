@@ -1,0 +1,98 @@
+body {
+    font-family: system-ui;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #0d4f3c;
+}
+
+.form-row,
+.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+input,
+button,
+select {
+    font-size: 16px;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+}
+
+button,
+select {
+    background: #0d4f3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+select:hover {
+    opacity: 0.95;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 12px;
+    background: #eef6f3;
+    border-left: 4px solid #1a8870;
+}
+
+.resultado.erro {
+    background: #fdecea;
+    border-color: #d93025;
+}
+
+.resultado.ok {
+    background: #eef6f3;
+    border-color: #1a8870;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,
+td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #0d4f3c;
+    color: white;
+}
+
+.copy-button {
+    background: #1a8870;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.copy-button:hover {
+    opacity: 0.9;
+}
+
+a {
+    color: #0d4f3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
