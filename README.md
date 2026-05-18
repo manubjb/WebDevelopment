@@ -24,3 +24,9 @@ Página estática que simula o catálogo de uma loja virtual usando a biblioteca
 - Adicionar estilos próprios em `style.css` para customizar paleta e tipografia além do tema padrão do Bootstrap.
 - Criar páginas complementares (`products.html`, `about.html`) citadas no rodapé para simular uma navegação completa.
 - Substituir os placeholders do `picsum.photos` por imagens reais de produtos e integrar preços/estoque.
+
+
+
+Instruções para o exerício 2
+Construa um type alias p/ um objeto c/ um shape de 4 atributos de tipos distintos, sendo que um deles deve ter valor opcional e outro 
+deve ter valor padrão. Em seguida, crie 2 objetos utilizando esse type alias, um com o valor opcional e outro sem ele, e ele imprima ambos no console. 
