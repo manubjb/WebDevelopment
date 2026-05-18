@@ -1,9 +1,9 @@
 import SecondFile from "./SecondFile";
 import Grid from "./Grid";
 
-const cards = Array.from({ length: 12}, (_, i) => ({
-  id: i,
-}));
+const cards = [
+
+];
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <hr />
       <SecondFile nome="Manu" />
       <hr />
-      <Grid />
+      <Grid cards={cards} />
     </>
   )
 }
