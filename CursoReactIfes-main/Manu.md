@@ -1,0 +1,1 @@
+Mudar o grid, para ao inves de ser um grid de cards fixo, será um grid de qualquer coisa que eu passar pra ele
